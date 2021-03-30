@@ -1,57 +1,12 @@
-tr
-{
-    height: 50px;
-}
-td{
-    width:300px;
-}
-td, th, table, tr
-{
-    border-collapse: collapse;
-    margin: 0px;
-    border-spacing: 0;
-}
-.vert
-{
-        background-color: green;
-    }
 .bleu
 {
-        background-color: blue;
+    background-color: rgb(40, 110, 241);
+}
+.mauve
+{
+    background-color: rgb(151, 16, 163);
 }
 .rouge
 {
-    background-color: red;
-}
-.gris
-{
-    background-color: gray;
-}
-.noir
-{
-    background-color: black;
-}
-.orange
-{
-    background-color: orange;
-}
-.jaune
-{
-    background-color: yellow;
-}
-.cyan
-{
-    background-color: cyan;
-}
-.magenta
-{
-    background-color:orangered;
-}
-.table{
-    border-collapse: collapse;
-}
-.t2
-{
-    border-collapse: 0px;
-    
+    background-color: rgb(184, 16, 49);
 }

@@ -7,48 +7,39 @@
     </head> 
 
     <body>    
-        <table>
+        
+        <form method="post" action="traitement.php" class="bleu">
+            <fieldset>
+                <legend>Votre identité</legend>
+            <p><label for="Nom">Votre Nom:</label><input type="text" name="Nom" id="Nom" placeholder="Nom"/></p>
+                <p><label for="Prénom">Votre prénom</label><input type="text" name="Prénom" id="Prénom" placeholder="Prénom"/></p>
+                    <p><label for="mail">Votre e-mail:</label><input type="email" name="mail" id="mail" placeholder="Adresse mail"/></p>
+                </fieldset>
+         </form>
 
-           <tr>
-               <td colspan="1" class="vert"></td>
-               <td class="vert"></td>
-               <td class="bleu"></td>
+         <form method="post" action="traitement.php" class="mauve">
+             <fieldset>
+                 <legend>Adresse de livraison</legend>
+            <p><label for="Adresse">Votre adresse:</label><textarea name="Adresse" id="Adresse"></textarea></p>
+                <p><label for="Code postal">Code postal:</label><input type="number" name="Code postal" id="Code postal" placeholder="Code postal" /></p>
+                    <p><label for="Ville">Ville:</label><input type="text" name="Ville" id="Ville" placeholder="Ville"/></p>
+                </fieldset>
+         </form>
 
-           </tr>
-                
-           <tr>
-            <td class="rouge" rowspan="1"></td>
-            <td class="orange"></td>
-            <td class="gris"></td>
-           </tr>
-
-           <tr>
-            <td class="rouge"></td>
-            <td colspan="2">
-                <table cellspacing="0" cellspading="0">
-                <tr>
-                    <td class="jaune"></td>
-                    <td class="cyan"></td>
-                    <td class="magenta"></td>
-                </tr>
-            </table>
-            </td>    
-            <td></td>
-           </tr>
-                
-
-           <tr>
-            <td class="noir" colspan="1"></td>
-            <td class="noir"></td>
-            <td class="noir"></td>
-           </tr>
-           <tr>
-            <td class="noir" colspan="1"></td>
-            <td class="noir"></td>
-            <td class="noir"></td>
-           </tr>
+         <form method="post" action="traitement.php" class="rouge">
+             <fieldset>
+                 <legend>Informations de réglement</legend>
+            <p>Type de carte bancaire:</br>
+                <input type="radio" name="Type" value="Visa" id="Visa"><label for="Visa">Visa</label></br>
+                <input type="radio" name="type" value="Mastercard" id="Mastercard"><label for="Mastercard">Mastercard</label></p>
+            <p><label for="Numero">Numéro de carte:</label><input type="number" name="Numero" id="Numero" placeholder="Numéro de carte"></p>
+            <p><label for="Code">Code de sécurité:</label><input type="number" name="Code" id="Code" placeholder="Code de sécurité"></p>
+            <p><label for="Titulaire">Nom du titulaire</label><input tupe="text" name="Titulaire" id="Titulaire" placeholder="Nom du titulaire"></p>
+        </fieldset>
+         </form>
 
 
-        </table>
+
+
     </body>
 </html>
