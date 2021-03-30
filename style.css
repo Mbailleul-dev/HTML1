@@ -1,32 +1,57 @@
-.rouge
+tr
 {
-    color:red;
-    display:inline;
+    height: 50px;
 }
-
+td{
+    width:300px;
+}
+td, th, table, tr
+{
+    border-collapse: collapse;
+    margin: 0px;
+    border-spacing: 0;
+}
 .vert
 {
-    color:green;
-    display:inline;
-}
-img, h1
+        background-color: green;
+    }
+.bleu
 {
-display:inline;
+        background-color: blue;
 }
-
-table
+.rouge
 {
-    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
-
+    background-color: red;
 }
-td
+.gris
 {
-    border: 1px solid black;
-    text-align: center;
+    background-color: gray;
 }
-
-th /* Toutes les cellules des tableaux... */
+.noir
 {
-    border: 1px solid black; /* auront une bordure de 1px */
+    background-color: black;
+}
+.orange
+{
+    background-color: orange;
+}
+.jaune
+{
+    background-color: yellow;
+}
+.cyan
+{
+    background-color: cyan;
+}
+.magenta
+{
+    background-color:orangered;
+}
+.table{
+    border-collapse: collapse;
+}
+.t2
+{
+    border-collapse: 0px;
     
 }
