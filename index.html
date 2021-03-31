@@ -3,40 +3,42 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Tableau psychedelique</title>
+        <title>Formulaire</title>
     </head> 
 
     <body>    
         
-        <form method="post" action="traitement.php" class="bleu">
-            <fieldset>
-                <legend>Votre identité</legend>
+        <form method="post" action="traitement.php" >
+            <fieldset class="bleu">
+                <legend class="bleu">Votre identité</legend>
             <p><label for="Nom">Votre Nom:</label><input type="text" name="Nom" id="Nom" placeholder="Nom"/></p>
                 <p><label for="Prénom">Votre prénom</label><input type="text" name="Prénom" id="Prénom" placeholder="Prénom"/></p>
                     <p><label for="mail">Votre e-mail:</label><input type="email" name="mail" id="mail" placeholder="Adresse mail"/></p>
                 </fieldset>
          </form>
 
-         <form method="post" action="traitement.php" class="mauve">
-             <fieldset>
-                 <legend>Adresse de livraison</legend>
+         <form method="post" action="traitement.php" >
+             <fieldset class="mauve">
+                 <legend class="mauve">Adresse de livraison</legend>
             <p><label for="Adresse">Votre adresse:</label><textarea name="Adresse" id="Adresse"></textarea></p>
                 <p><label for="Code postal">Code postal:</label><input type="number" name="Code postal" id="Code postal" placeholder="Code postal" /></p>
                     <p><label for="Ville">Ville:</label><input type="text" name="Ville" id="Ville" placeholder="Ville"/></p>
                 </fieldset>
          </form>
 
-         <form method="post" action="traitement.php" class="rouge">
-             <fieldset>
-                 <legend>Informations de réglement</legend>
+         <form method="post" action="traitement.php" >
+             <fieldset class="rouge">
+                 <legend class="rouge">Informations de réglement</legend>
             <p>Type de carte bancaire:</br>
                 <input type="radio" name="Type" value="Visa" id="Visa"><label for="Visa">Visa</label></br>
-                <input type="radio" name="type" value="Mastercard" id="Mastercard"><label for="Mastercard">Mastercard</label></p>
+                <input type="radio" name="Type" value="Mastercard" id="Mastercard"><label for="Mastercard">Mastercard</label></p>
             <p><label for="Numero">Numéro de carte:</label><input type="number" name="Numero" id="Numero" placeholder="Numéro de carte"></p>
             <p><label for="Code">Code de sécurité:</label><input type="number" name="Code" id="Code" placeholder="Code de sécurité"></p>
             <p><label for="Titulaire">Nom du titulaire</label><input tupe="text" name="Titulaire" id="Titulaire" placeholder="Nom du titulaire"></p>
         </fieldset>
          </form>
+
+         <input type="submit" value="J'achète !" />
 
 
 
